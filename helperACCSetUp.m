@@ -39,7 +39,7 @@ lr      = 1.6;      % Longitudinal distance from c.g. to rear tires  (m)
 Cf      = 19000;    % Cornering stiffness of front tires             (N/rad)
 Cr      = 33000;    % Cornering stiffness of rear tires              (N/rad)
 tau     = 0.5;      % Longitudinal time constant                     (N/A)
-
+m = 10
 %% Controller parameter
 PredictionHorizon = 30; % Number of steps for preview    (N/A)
 
